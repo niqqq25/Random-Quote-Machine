@@ -1,0 +1,88 @@
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAAXNSR0IArs4c6QAAACBJREFUKBVj/PTp038GUgCpGphIMRykdlQDMSE2CEMJAOX5B8AqzKL7AAAAAElFTkSuQmCC");
+}
+
+#quote-box{
+    background-color: #36393F;
+    max-width: 500px;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.rainbow-text{
+    background-image: linear-gradient(to left, red, orange, yellow, green, yellow, orange, red);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#title{
+    text-align: center;
+    padding: 10px 0;
+}
+
+#text{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    padding: 0 30px;
+    margin: 0;
+}
+
+#author{
+    display: block;
+    color: white;
+    text-align: right;
+    padding-right: 30px;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+#tweet-and-new-quote-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#tweet-quote{
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+#tweet-quote:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+}
+
+#new-quote{
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+@keyframes disappear-animation{
+    from {
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes appear-animation{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
