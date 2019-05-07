@@ -1,0 +1,26 @@
+{
+  "name": "random-quote-machine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niqqq25/Random-Quote-Machine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niqqq25/Random-Quote-Machine/issues"
+  },
+  "homepage": "https://github.com/niqqq25/Random-Quote-Machine#readme",
+  "engines": {
+    "node": "10.x"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

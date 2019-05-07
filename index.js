@@ -1,7 +1,6 @@
 let quoteText = '';
 let quoteAuthor = '';
 
-
 function fetchQuote(){
     $.ajax({
         url: "https://quotable-quotes.p.rapidapi.com/randomQuotes",
@@ -13,7 +12,6 @@ function fetchQuote(){
             loadQoute();
             setTweetLink();
         });
-
 }
 fetchQuote();
 
